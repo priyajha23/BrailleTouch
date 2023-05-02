@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body{
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+  min-height: 100vh;
+  background:#313131;
+  /* background: rgb(173,181,189);
+background: linear-gradient(90deg, rgba(173,181,189,1) 0%, rgba(49,49,49,1) 35%, rgba(0,212,255,1) 100%); */
+
+  position:relative;
+  
+}
+.drag-area{
+  border: 2px dashed #fff;
+  height: 500px;
+  width: 700px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin:1%;
+}
+.drag-area.active{
+  border: 2px solid yellow;
+}
+.drag-area .icon{
+  font-size: 100px;
+  color: #fff;
+}
+.drag-area header{
+  font-size: 30px;
+  font-weight: 500;
+  color: #fff;
+}
+.drag-area span{
+  font-size: 25px;
+  font-weight: 500;
+  color: #fff;
+  margin: 10px 0 15px 0;
+}
+.drag-area button{
+  padding: 10px 25px;
+  font-size: 20px;
+  font-weight: 500;
+  border: none;
+  outline: none;
+  background: #fff;
+  color: #5256ad;
+  border-radius: 5px;
+  cursor: pointer;
+  display:inline-block;
+  margin:1%;
+}
+.drag-area img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+
+#text{
+    box-shadow:-3px 2px 9px 6px black;
+    background-color:white;
+    margin: 1%;
+    margin-bottom:1px;
+    display:flex;
+    width:42%;
+    height:75vh;
+    border-radius: 2%;
+    overflow:auto;
+    padding:1%;
+    position: relative;
+    overflow-y: scroll;
+}
+.row{
+    align-items: center;
+}
+.fontSize{
+    position:absolute; 
+    /* bottom:3%;
+     margin-top:90%; */
+    width:25%;
+    margin-left:75%;
+    /* margin-left:50%;
+    margin-bottom:1%;
+   
+    border-color:yellow; */
+    transform: rotate(270deg);
+}
+
+#magnifying{
+    position:absolute; 
+    margin-left:86%;
+    margin-top:27%;
+    
+}
+#navbarNavDropdown{
+    display:flex;
+    flex-direction: row-reverse;
+}
+
+#tagline{
+    font-size:75%;
+}
+
+main{
+    padding:2%;
+    margin:auto;
+    color:white;
+    background: rgb(49,49,49);
+background: linear-gradient(90deg, rgba(49,49,49,1) 0%, rgba(63,79,142,1) 48%, rgba(40,205,196,1) 100%);
+}
+
+#tagline{
+    font-size:75%;
+}
+
+#navbarNavDropdown{
+    display:flex;
+    flex-direction: row-reverse;
+}
+
+#dataArea{
+    box-shadow: -3px 2px 9px 6px black;
+    border:2px solid black;
+    background-color: white;
+    padding: 1%;
+    display: flex;
+    width: 75%;
+    margin:auto;
+    height: 100vh;
+    border-radius: 2%;
+    overflow: auto;
+}
+.download{
+    display:flex;
+    justify-content: center;
+    margin:1%;
+}
+/* .mybar{
+    position:absolute;
+    margin-bottom:10%;
+
+} */
+
+#navbarNavDropdown{
+    display:flex;
+    flex-direction: row-reverse;
+}
+
+#tagline{
+    font-size:75%;
+}
+
+#copyToClipboard{
+  margin:auto;
+  background-color: green;
+}
